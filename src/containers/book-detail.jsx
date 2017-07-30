@@ -9,6 +9,7 @@ class BookDetail extends Component {
         <div>
         <h1>{this.props.book.title}</h1>
         <p>{this.props.book.description}</p>
+        <p><i>Pages {this.props.book.pages}</i></p>
         </div>
         )
     }else{
